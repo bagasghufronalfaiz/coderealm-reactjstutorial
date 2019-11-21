@@ -9,7 +9,6 @@ export default class Countdown extends React.Component {
       duration: this.getRemainingTime(),
       paused: false
     }
-    this.handleTogglePause = this.handleTogglePause.bind(this)
   }
 
   componentDidMount(){
